@@ -4,3 +4,24 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+  
+[[redirects]]
+from = "http://local-now.jp/*"
+to = "https://tsukuba.local-now.jp/:splat"
+status = 301
+force = true
+[[redirects]]
+from = "https://local-now.jp/*"
+to = "https://tsukuba.local-now.jp/:splat"
+status = 301
+force = true
+[[redirects]]
+from = "http://www.local-now.jp/*"
+to = "https://tsukuba.local-now.jp/:splat"
+status = 301
+force = true
+[[redirects]]
+from = "https://www.local-now.jp/*"
+to = "https://tsukuba.local-now.jp/:splat"
+status = 301
+force = true
